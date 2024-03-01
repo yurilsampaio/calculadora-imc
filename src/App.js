@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Input from './components/Input/Input';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <div id='calculadora'>
+        <Input 
+          type='number'
+          inputMode='numeric'
+          pattern="[0-9]*"
+        />
+        <Input 
+          type='number'
+          inputMode='numeric'
+          pattern="[0-9]*"
+        />
+      </div>
+      <div id='resultado'>
+
+      </div>
     </div>
   );
 }
