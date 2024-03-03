@@ -1,0 +1,25 @@
+.btn-calcular {
+    background-color: rgb(22, 155, 93);
+    border: 3px solid rgb(18, 128, 77);
+    border-radius: 12px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px;
+    width: 100px;
+    transition-duration: 0.2s;
+}
+
+.btn-limpar {
+    background-color: rgb(235, 235, 235);
+    border: 3px solid rgb(170, 170, 170);
+    border-radius: 12px;
+    color: rgb(206, 29, 68);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px;
+    width: 100px;
+    transition-duration: 0.2s;
+}
